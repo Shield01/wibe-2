@@ -50,23 +50,72 @@
             </li>
             <li>
               <a data-toggle="collapse" href="#pagesExamples">
-                <i class="tim-icons icon-image-02"></i>
+                <i class="tim-icons icon-paper"></i>
                 <p>
-                  Pages
+                  Reports
                   <b class="caret"></b>
                 </p>
               </a>
               <div class="collapse" id="pagesExamples">
                 <ul class="nav">
+                  <li>
+                    <a href="serviceRequest.html">
+                      <span class="sidebar-mini-icon">SR</span>
+                      <span class="sidebar-normal"> Service Request </span>
+                    </a>
                   </li>
                   <li>
-                    <a href="lock.html">
-                      <span class="sidebar-mini-icon">LS</span>
-                      <span class="sidebar-normal"> Lock Screen </span>
-                    </a>
+                      <a href="agentsReport.html">
+                        <span class="sidebar-mini-icon">AR</span>
+                        <span class="sidebar-normal"> Agents Reports</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="usersReport.html">
+                        <span class="sidebar-mini-icon">UR</span>
+                        <span class="sidebar-normal"> Users Report </span>
+                      </a>
                   </li>
                 </ul>
               </div>
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#formsExamples">
+                <i class="tim-icons icon-cart"></i>
+                <p>
+                  Services
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="formsExamples">
+                <ul class="nav">
+                  <li>
+                    <a href="serviceListings.html">
+                     <span class="sidebar-mini-icon">SL</span>
+                     <span class="sidebar-normal"> Service Listings </span>
+                    </a>
+                  </li>
+                </ul>  
+              </div> 
+            </li>
+            <li>
+              <a data-toggle="collapse" href="#formsExamples">
+                <i class="tim-icons icon-coins"></i>
+                <p>
+                  Finance
+                  <b class="caret"></b>
+                </p>
+              </a>
+              <div class="collapse" id="formsExamples">
+                <ul class="nav">
+                  <li>
+                    <a href="walletFunding.html">
+                     <span class="sidebar-mini-icon">WF</span>
+                     <span class="sidebar-normal"> Funding Records </span>
+                    </a>
+                  </li>
+                </ul>  
+              </div> 
             </li>
             <li>
               <a data-toggle="collapse" href="#componentsExamples">
@@ -221,7 +270,7 @@
                       <img src="../img/mike.jpg" alt="Profile Photo" />
                     </div>
                     <b class="caret d-none d-lg-block d-xl-block"></b>
-                    <p class="d-lg-none">Log out</p>
+                    <p class="d-lg-none">Quick Actions</p>
                   </a>
                   <ul class="dropdown-menu dropdown-navbar">
                     <li class="nav-link">
@@ -233,15 +282,15 @@
                     </li>
                     <li class="nav-link">
                       <a
-                        href="javascript:void(0)"
+                        href="lock.html"
                         class="nav-item dropdown-item"
-                        >Settings</a
+                        >Lock Access</a
                       >
                     </li>
                     <li class="dropdown-divider"></li>
                     <li class="nav-link">
                       <a
-                        href="javascript:void(0)"
+                        href="index.html"
                         class="nav-item dropdown-item"
                         >Log out</a
                       >
@@ -288,13 +337,7 @@
             <div class="col-12">
               <div class="card card-chart">
                 <div class="card-body">
-                  <div class="chart-area">
-                    <div class="circle"></div>
-                    <div class="random"></div>
-                    <div class="glass">
-                      <h1 class="glass-text">Wibe Express</h1>
-                    </div>
-                  </div>
+                  <h4>Report Overview</h4>
                 </div>
               </div>
             </div>
@@ -318,7 +361,7 @@
                 <div class="card-footer">
                   <hr />
                   <div class="stats">
-                    <i class="tim-icons icon-refresh-01"></i> Update Now
+                    <a href="#"><i class="tim-icons icon-refresh-01"></i> Update Now</a>
                   </div>
                 </div>
               </div>
@@ -343,7 +386,7 @@
                 <div class="card-footer">
                   <hr />
                   <div class="stats">
-                    <i class="tim-icons icon-refresh-01"></i> Update Now
+                    <a href="#"><i class="tim-icons icon-refresh-01"></i> Update Now</a>
                   </div>
                 </div>
               </div>
@@ -368,7 +411,7 @@
                 <div class="card-footer">
                   <hr />
                   <div class="stats">
-                    <i class="tim-icons icon-refresh-01"></i> Update Now
+                    <a href="#"><i class="tim-icons icon-refresh-01"></i> Update Now</a>
                   </div>
                 </div>
               </div>
@@ -393,7 +436,7 @@
                 <div class="card-footer">
                   <hr />
                   <div class="stats">
-                    <i class="tim-icons icon-refresh-01"></i> Update Now
+                    <a href="#"><i class="tim-icons icon-refresh-01"></i> Update Now</a>
                   </div>
                 </div>
               </div>
@@ -445,12 +488,12 @@
                       class="btn btn-link dropdown-toggle btn-icon"
                       data-toggle="dropdown"
                     >
-                      <i class="tim-icons icon-settings-gear-63"></i>
+                      <i class="tim-icons icon-refresh-02"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
-                      <a class="dropdown-item" href="#pablo">Action</a>
-                      <a class="dropdown-item" href="#pablo">Another action</a>
-                      <a class="dropdown-item" href="#pablo">Something else</a>
+                      <a class="dropdown-item" href="#pablo">Refresh</a>
+                      <!-- <a class="dropdown-item" href="#pablo">Another action</a>
+                      <a class="dropdown-item" href="#pablo">Something else</a> -->
                     </div>
                   </div>
                 </div>
@@ -703,19 +746,10 @@
                         class="btn btn-link dropdown-toggle btn-icon"
                         data-toggle="dropdown"
                       >
-                        <i class="tim-icons icon-settings-gear-63"></i>
+                        <i class="tim-icons icon-refresh-02"></i>
                       </button>
                       <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#pablo">Action</a>
-                        <a class="dropdown-item" href="#pablo"
-                          >Another action</a
-                        >
-                        <a class="dropdown-item" href="#pablo"
-                          >Something else</a
-                        >
-                        <a class="dropdown-item text-danger" href="#pablo"
-                          >Remove Data</a
-                        >
+                        <a class="dropdown-item" href="#pablo">Refresh</a>
                       </div>
                     </div>
                   </div>
@@ -1021,7 +1055,7 @@
                 </div>
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                       <div class="table-responsive">
                         <table class="table">
                           <tbody>
@@ -1088,9 +1122,6 @@
                           </tbody>
                         </table>
                       </div>
-                    </div>
-                    <div class="col-md-6 ml-auto mr-auto">
-                      <div id="worldMap" style="height: 300px"></div>
                     </div>
                   </div>
                 </div>
